@@ -1,3 +1,6 @@
+-- This script comes from https://github.com/cg2121/obs-advanced-timer
+-- Licensed under GPL 2.0
+
 obs           = obslua
 source_name   = ""
 
