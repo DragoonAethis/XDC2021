@@ -1,0 +1,2 @@
+A new CPU performance scaling proposal
+for tuning VKD3D-Proton

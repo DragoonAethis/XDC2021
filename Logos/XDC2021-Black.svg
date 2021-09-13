@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="203.91194mm"
+   height="35.895638mm"
+   viewBox="0 0 203.91194 35.895638"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="xdc2021-logo-black.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     inkscape:zoom="1.8923042"
+     inkscape:cx="331.63839"
+     inkscape:cy="52.998055"
+     inkscape:window-width="2560"
+     inkscape:window-height="1400"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790" />
+    <linearGradient
+       id="LO"
+       gradientUnits="userSpaceOnUse"
+       x1="319.20822"
+       y1="235.14877"
+       x2="657.65295"
+       y2="269.49396"
+       gradientTransform="matrix(0.10900146,0,0,0.10900146,-30.21657,-5.9545556)">
+      <stop
+         style="stop-color:#e54c18"
+         offset="0"
+         id="stop11" />
+      <stop
+         style="stop-color:#fec350"
+         offset="1"
+         id="stop13" />
+    </linearGradient>
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790-2" />
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790-2-0" />
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790-2-6" />
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790-2-6-1" />
+    <rect
+       x="240.6467"
+       y="259.33044"
+       width="562.0072"
+       height="274.27744"
+       id="rect790-2-6-3" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#LO"
+       id="linearGradient85637"
+       x1="275.81339"
+       y1="269.73288"
+       x2="242.69406"
+       y2="267.89706"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.0395802,-2.1148039)">
+    <path
+       d="M 7.0699845,36.632554 19.17975,20.799416 6.7125197,3.390468 14.725692,3.3971258 24.659868,17.085842 9.8062253,36.632554 Z M 30.772111,36.643749 20.90652,22.931533 35.883848,3.3756351 h 2.668544 L 26.393206,19.283477 38.785411,36.643749 Z"
+       id="path18"
+       style="stroke-width:0.109001" />
+    <path
+       id="P1"
+       d="m 22.802908,9.722744 c -0.964776,0 -1.995522,0.074705 -2.923432,0.1637779 1.653109,2.1560481 3.024799,3.9817701 4.603445,6.0552361 -0.886047,-1.906755 -2.707121,-3.735217 -2.077565,-4.675582 0.62318,-0.930838 1.771391,-0.774163 1.858852,-0.774163 1.84087,0 3.612881,0.207908 5.26954,0.592695 L 29.922065,10.54992 C 27.712518,9.9811221 25.312558,9.722744 22.802908,9.722744 Z m 9.970227,1.740063 -0.357661,0.510945 c 5.10408,1.99872 8.556614,5.816349 8.556614,10.191635 0,6.442644 -7.484568,11.669969 -16.70788,11.669969 -9.223311,-10e-7 -16.711286,-5.227326 -16.711286,-11.669969 1.1e-6,-3.508513 2.220532,-6.657811 5.732796,-8.79846 l -1.079796,-1.645241 c -5.5096032,2.336101 -9.1663406,6.436495 -9.1663417,11.104522 0,7.263169 8.8533707,13.155114 19.7633277,13.155114 10.909955,0 19.766732,-5.891944 19.766733,-13.155114 0,-4.843253 -3.937411,-9.078998 -9.796506,-11.363401 z"
+       style="fill:url(#LO);stroke-width:0.109001" />
+    <rect
+       x="49.962193"
+       y="18.195475"
+       width="0.055054054"
+       height="0"
+       id="rect23"
+       style="stroke-width:0.109001" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.95594225,0,0,0.95594225,-191.52007,-229.25212)"
+       id="text788-2"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:22.5px;line-height:25px;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-0.912551px;word-spacing:0px;white-space:pre;shape-inside:url(#rect790-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
+         x="240.64648"
+         y="278.16608"
+         id="tspan85967"><tspan
+           style="font-weight:800;-inkscape-font-specification:'Iosevka, Ultra-Bold'"
+           id="tspan85965">CONFERENCE</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.95594225,0,0,0.95594225,-191.65474,-246.53511)"
+       id="text788-2-9"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:22.5px;line-height:25px;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-0.912551px;word-spacing:0px;white-space:pre;shape-inside:url(#rect790-2-6);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
+         x="240.64648"
+         y="278.16608"
+         id="tspan85971"><tspan
+           style="font-weight:800;-inkscape-font-specification:'Iosevka, Ultra-Bold'"
+           id="tspan85969">DEVELOPERS</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.9979744,0,0,1.9979744,-346.06337,-519.1179)"
+       id="text788-2-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:22.5px;line-height:25px;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-1.71153px;word-spacing:0px;white-space:pre;shape-inside:url(#rect790-2-6-1);fill:url(#linearGradient85637);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
+         x="240.64648"
+         y="278.16608"
+         id="tspan85975"><tspan
+           style="font-weight:100;-inkscape-font-specification:'Iosevka, Thin'"
+           id="tspan85973">2021</tspan></tspan></text>
+  </g>
+  <style
+     type="text/css"
+     id="style9"><![CDATA[
+#P1 {fill:url(#LO)}
+rect {opacity:.40740739;fill:#000cff;width:.50507629;height:0}
+]]></style>
+</svg>
