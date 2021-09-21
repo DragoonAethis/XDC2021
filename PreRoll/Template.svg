@@ -27,8 +27,8 @@
      units="px"
      width="1920px"
      inkscape:zoom="0.66903058"
-     inkscape:cx="760.80229"
-     inkscape:cy="751.08674"
+     inkscape:cx="795.18039"
+     inkscape:cy="718.20334"
      inkscape:window-width="2560"
      inkscape:window-height="1400"
      inkscape:window-x="0"
@@ -65,23 +65,23 @@
        y="0" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,-18.191745,-10.677763)"
+       transform="matrix(0.26458334,0,0,0.26458334,-18.587218,1.2210945e-7)"
        id="text2200"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:25px;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2202);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
          x="103.13477"
          y="316.01068"
-         id="tspan15664"><tspan
+         id="tspan4477"><tspan
            style="fill:#ffffff"
-           id="tspan15662">$SPEAKERS</tspan></tspan></text>
+           id="tspan4475">$SPEAKERS</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,-18.675511,7.67665)"
+       transform="matrix(0.26458334,0,0,0.26458334,-18.280038,17.167995)"
        id="text2200-4"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;line-height:83.1496px;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2202-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
          x="103.13477"
          y="351.09294"
-         id="tspan15668"><tspan
+         id="tspan4481"><tspan
            style="fill:#ffffff"
-           id="tspan15666">$TITLE</tspan></tspan></text>
+           id="tspan4479">$TITLE</tspan></tspan></text>
   </g>
 </svg>
