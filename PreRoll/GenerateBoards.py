@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 import os
 import sys
+import base64
+import argparse
 import tempfile
 import subprocess
 import multiprocessing
 
 import slugify
 
-template_name = "Template.svg"
+EPILOG = """
+In default mode, the script loads a template SVG file and replaces $SPEAKERS and $TITLE lines with
+the talk block contents. In Eyecatch Mode, it does the same, but also loads a PNG image from the
+"eyecatch" directory and replaces $EYECATCH in the template file with the Base64-encoded embed. The
+source file name must match the output file. The SVG template must have a xlink:href value set to
+"$EYECATCH" for the image to be replaced (instead of the base64 blob in its place). This is useful
+for generating video thumbs.
+"""
 
 blocks = [
     { "title": "Raspberry Pi Vulkan driver update", "speaker": "Iago Toral, Igalia" },
     { "title": "Lima driver status update 2021", "speaker": "Erico Nunes" },
-    { "title": "The Occult and the Apple GPU", "speaker": "Alyssa Rosenzweig, Collabora" },
+    { "title": "The Occult and the Apple GPU", "speaker": "Alyssa Rosenzweig" },
     { "title": "ChromeOS + freedreno update", "speaker": "Rob Clark, Google" },
     { "title": "SSA-based Register Allocation for GPU Architectures", "speaker": "Connor Abbott and Daniel Schürmann, Valve" },
     { "title": "etnaviv: status update", "speaker": "Christian Gmeiner" },
@@ -46,10 +55,17 @@ blocks = [
 ]
 
 
-def generate(block):
+def generate(block, template, eyecatch=False):
     temp_svg_file = tempfile.mkstemp(suffix=".svg")[1]
     generated_file = slugify.slugify(block['title']) + ".png"
     svg_contents = template.replace("$SPEAKERS", block['speaker']).replace('$TITLE', block['title'])
+
+    if eyecatch:
+        with open(f"eyecatch/{generated_file}", 'rb') as f:
+            eyecatch_png = f.read()
+
+        eyecatch_embed_b64 = "data:image/png;base64," + str(base64.b64encode(eyecatch_png), encoding='utf-8')
+        svg_contents = svg_contents.replace("$EYECATCH", eyecatch_embed_b64)
 
     with open(temp_svg_file, 'w') as f:
         f.write(svg_contents)
@@ -61,9 +77,32 @@ def generate(block):
 
 
 # Behold! The world's worst preroll generator!
-if __name__ == "__main__":
-    with open(template_name) as f:
-        template = f.read()
+def run_app():
+    parser = argparse.ArgumentParser(description="Generate video thumbnails and preroll screens.",
+                                     epilog=EPILOG)
+    parser.add_argument('--template', default='Template.svg',
+                        help="SVG template to load and transform (default: Template.svg)")
+    parser.add_argument('--eyecatch', action='store_true',
+                        help="enable Eyecatch Mode (read more below)")
+    parser.add_argument('--single-thread', action='store_true',
+                        help="disable multiprocessing (useful for debugging)")
+    args = parser.parse_args()
 
-    with multiprocessing.Pool(16) as p:
-        print(p.map(generate, blocks))
+    try:
+        with open(args.template) as f:
+            template = f.read()
+    except IOError:
+        print(f"Could not open/read the template file ({args.template}).")
+        exit(1)
+
+    jobs = [(block, template, args.eyecatch) for block in blocks]
+    if args.single_thread:
+        for job in jobs:
+            generate(*job)
+    else:
+        with multiprocessing.Pool(16) as p:
+            print(p.starmap(generate, jobs))
+
+
+if __name__ == "__main__":
+    run_app()
